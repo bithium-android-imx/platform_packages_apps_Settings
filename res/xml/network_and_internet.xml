@@ -101,4 +101,12 @@
         android:positiveButtonText="@string/save"
         android:negativeButtonText="@android:string/cancel" />
 
+    <com.android.settingslib.RestrictedPreference
+      android:fragment="com.android.settings.ethernet.EthernetSettings"
+      android:icon="@drawable/ic_ethernet"
+      android:key="ethernet_settings"
+      android:title="@string/ethernet_settings_title"
+      settings:useAdminDisabledSummary="true"
+      settings:userRestriction="no_config_ethernet" />
+
 </PreferenceScreen>

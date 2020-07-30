@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/ethernet_settings_title" >
+
+    <!-- $_rbox_$_modify_$_lijiehong: change to support bluetooth checkbox -->
+    <SwitchPreference
+        android:key="ethernet_mode_select"
+        android:title="@string/ethernet_mode_title"
+        android:summaryOff="@string/ethernet_mode_off"
+        android:summaryOn="@string/ethernet_mode_on"
+        android:persistent="false"
+        android:disableDependentsState="true" />
+
+    <!-- ethernet ip address -->
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:key="ethernet_ip_addr"
+        android:summary="@string/device_info_default"
+        android:title="@string/ethernet_ip_address" />
+
+    <!-- ethernet netmask -->
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:key="ethernet_netmask"
+        android:summary="@string/device_info_default"
+        android:title="@string/ethernet_netmask" />
+
+    <!-- ethernet gateway -->
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:key="ethernet_gateway"
+        android:summary="@string/device_info_default"
+        android:title="@string/ethernet_gateway" />
+
+    <!-- ethernet dns1 -->
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:key="ethernet_dns1"
+        android:summary="@string/device_info_default"
+        android:title="@string/ethernet_dns1" />
+
+    <!-- ethernet dns2 -->
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:key="ethernet_dns2"
+        android:summary="@string/device_info_default"
+        android:title="@string/ethernet_dns2" />
+
+</PreferenceScreen>

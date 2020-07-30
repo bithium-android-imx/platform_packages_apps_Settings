@@ -3400,6 +3400,37 @@
     <string name="network_reset_not_available">Network reset is not available for this user</string>
     <!-- Reset settings complete toast text [CHAR LIMIT=75] -->
     <string name="reset_network_complete_toast">Network settings have been reset</string>
+
+    <!-- Ethernet Settings -->
+    <string name="ethernet_settings_title">Ethernet</string>
+    <string name="ethernet_netmask_hint" translatable="false">255.255.255.0</string>
+
+    <string name="ethernet_connect">Connect</string>
+    <string name="ethernet_cancel">Cancel</string>
+
+    <!--Wireless controls screen, settings summary for the item tot ake you to the ethernet settings screen -->
+    <string name="ethernet_settings_summary">Manage ethernet</string>
+    <!-- ethernet hw address  -->
+    <string name="ethernet_hw_addr">MAC</string>
+    <!-- ethernet ip address  -->
+    <string name="ethernet_ip_address">IP Address</string>
+    <!-- ethernet netmask  -->
+    <string name="ethernet_netmask">Netmask</string>
+    <!-- ethernet gateway  -->
+    <string name="ethernet_gateway">Gateway</string>
+    <!-- ethernet dns1  -->
+    <string name="ethernet_dns1">DNS 1</string>
+    <!-- ethernet dns2 -->
+    <string name="ethernet_dns2">DNS 2</string>
+
+    <string name="ethernet_ip_settings_invalid_ip">Please type a valid IP address.</string>
+
+    <string name="ethernet_mode_title">Use DHCP</string>
+    <!-- Ethernet settings check box summary for turning on ethernet -->
+    <string name="ethernet_mode_off">Use Static IP</string>
+    <!--Used as title on second screen after selecting Ethernet settings -->
+    <string name="ethernet_mode_on">Obtain IP automatically</string>
+
     <!-- Title of the error message shown when error happens during erase eSIM data [CHAR LIMIT=NONE] -->
     <string name="reset_esim_error_title">Cant\u2019t reset eSIMs</string>
     <!-- Message of the error message shown when error happens during erase eSIM data [CHAR LIMIT=NONE] -->
